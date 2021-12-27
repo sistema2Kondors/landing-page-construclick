@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+
+.wrap{
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+    
+}
+.main{
+    height: 950px;
+    background: #E6E7ED;
+}
+
+header{
+    
+    width: 100%;
+    z-index: 1;
+}
+
+header .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 61px 0px;
+}
+
+header .btn-menu{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.textConstruclick1{
+    color: #FF6600; 
+}
+
+.textConstruclick2{
+    font-size: 19px;
+}
+
+
+.logoConstruclick{
+    width: 133px;
+    height: 80px;
+}
+
+.iconMenu{
+    width: 46px;
+    height: 37px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-left: 22px;
+}
+
+.content-text{
+    width: 70%;
+}
+
+.content-image{
+    position: relative;
+    bottom: 179px;
+}
+
+.imgConstruclick{
+    width: 100px;
+    height: 100px;
+    float:right; 
+   
+}
+
