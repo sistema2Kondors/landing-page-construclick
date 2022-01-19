@@ -158,6 +158,7 @@ header .btn-menu {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .image {
     width: 329px;
     height: auto;
@@ -169,13 +170,14 @@ header .btn-menu {
     text-align: center;
 }
 
-.quienesSomos {
+.contentQuienesSomos {
     color: #1E284B;
     font-size: 20px;
     width: 71%;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
     padding: 0px 0px 45px 90px;
+    margin: 0;
 }
 
 .proveedores {
@@ -196,21 +198,41 @@ header .btn-menu {
 }
 
 .formulario {
-    /* display: block; */
     width: 85%;
-    height: 55px;
-    /* height: calc(1.5em + 0.75rem + 2px); */
+    height: 45px;
     padding: 0.375rem 0.75rem;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background: #E6E7ED;
+    opacity: 1;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 45px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+select {
+    padding: 10px;
+    padding-right: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../img/flecha.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: 36px auto, 100%;
+    background-color: #E6E7ED; 
+    border: 1px solid #ced4da;
+    border-radius: 45px;
+    color: #495057;
+    width: 85%;
+    height: 45px;
+}
+
+
+
 
 .terminos {
     color: #FF6600;
@@ -242,7 +264,7 @@ header .btn-menu {
 }
 
 .footers {
-    padding: 40px 0px 50px 0px;
+    padding: 40px 0px 20px 0px;
     background: transparent linear-gradient(180deg, #B2BFE1 0%, #A6ACBB 100%) 0% 0% no-repeat padding-box;
     color: #FFFFFF;
 }
@@ -295,4 +317,32 @@ header .btn-menu {
 .iconSocial {
     width: 26px;
     height: auto;
+}
+
+
+
+
+.inicio{
+    background: transparent linear-gradient(158deg, #D9DCE5 0%, #D2D5DEF5 49%, #6666683E 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tePermite{
+    background: transparent linear-gradient(180deg, #D9DCE5 66%, #D2D5DEF5 94%, #6666683E 100%) 0% 0% no-repeat padding-box;
+}
+
+.QuienesSomos{
+    background: transparent linear-gradient(180deg,#B1BEDF4B 100%, #B2BFE1 100%, #ADB7D2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+
+.NuestrosProveedores{
+    background: transparent linear-gradient(180deg,#B1BEDF4B 100%, #B2BFE1 100%, #ADB7D2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    
+}
+
+.registro{
+    background: transparent linear-gradient(180deg,#B1BEDF4B 100%, #B2BFE1 100%, #ADB7D2 100%) 0% 0% no-repeat padding-box; 
+    opacity: 1; 
 }
