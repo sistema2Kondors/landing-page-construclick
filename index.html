@@ -16,17 +16,55 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="body">
     <div class="containerWebConstruclick">
         <section class="inicio">
             <header>
                 <div class="wrap">
                     <img src="img/logo_vertical.png" class="logoConstruclick" alt="">
                     <div class="btn-menu">
-                        <img src="img/iconoMenu.png" class="iconMenu">
+                        <img src="img/iconoMenu.png" class="iconMenu" id="btn_open">
                     </div>
                 </div>
             </header>
+
+            <div class="menu__side" id="menu_side">
+                <div class="name__page">
+                    <img src="img/x.png" class="claseX" id="btn_close">
+                </div>
+                <div class="options__menu">	
+                    
+                    <a href="#" class="selected">
+                        <div class="option">
+                            <h4>INICIO</h4>
+                        </div>
+                    </a>
+        
+                    <a href="#">
+                        <div class="option">
+                            <h4>BENEFICIOS</h4>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="option">
+                            <h4>NOSOTROS</h4>
+                        </div>
+                    </a>
+        
+                    <a href="#">
+                        <div class="option">
+                            <h4>PROVEEDORES</h4>
+                        </div>
+                    </a>
+        
+                    <a href="#">
+                        <div class="option">
+                            <h4>CONTÁCTENOS</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-md-5 col-12 text">
@@ -224,7 +262,7 @@
                         </select>
                     </div>
 
-                    <div class="form-group col-11 offset-1">
+                    <div class="form-group col-9 ">
                         <div class="form-check">
                             <input class="checkInput" type="checkbox" id="gridCheck">
                             <label class="checkLabel" for="gridCheck">

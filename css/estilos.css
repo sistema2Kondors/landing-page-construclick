@@ -22,6 +22,8 @@ html body {
     background: #B1BEDF4B; 
 }
 
+
+
 .containerWebConstruclick{
     width: 100%;
     margin-right: auto;
@@ -30,11 +32,6 @@ html body {
 
 .containerWebConstruclick .row{
     margin: 0px;
-}
-.main {
-    width: 80%;
-    height: 50%;
-    background: #E6E7ED;
 }
 
 header {
@@ -48,6 +45,7 @@ header .wrap {
     align-items: center;
     padding: 42px 10px 30px 10px;
 }
+
 
 header .btn-menu {
     font-size: 30px;
@@ -71,7 +69,6 @@ header .btn-menu {
     font-weight: 400;
     font-family: var(--fuente-primaria);
     padding: 0px 0px 0px 39px;
-    
 }
 
 .iconosTienda {
@@ -83,7 +80,7 @@ header .btn-menu {
 }
 
 .logoConstruclick {
-    width: 245px;
+    width: 214px;
     padding: 0px 0px 0px 36px;
 }
 
@@ -95,9 +92,9 @@ header .btn-menu {
 }
 
 .iconMenu {
-    width: 82px;
-    height: 100px;
-    padding: 0px 15px 47px 0px;
+    width: 58px;
+    height: 44px;
+    
 }
 
 @media(max-width: 768px){
@@ -105,6 +102,114 @@ header .btn-menu {
         width: 85px;
         padding: 23px 15px 17px 0px;
         
+    }
+}
+
+.claseX{
+    width: 40px;
+    height: 36px;
+}
+
+.icon__menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    transform: translateX(0px);
+}
+
+.icon__menu i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menu__side{
+    width: 0px;
+    height: 100%;
+    background: transparent linear-gradient(160deg, #E6E7ED 0%, #EDEEF2 38%, #F7F8FA 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -6px -6px 15px #00000029;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #FF6600;
+    font-size: 18px;
+    z-index: 300;
+    overflow: hidden;
+    overflow-y: scroll;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+}
+
+.menu__side::-webkit-scrollbar{
+    display: none;
+}
+
+.menu__side{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.name__page{
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.name__page i{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.options__menu{
+    padding: 58px 0px 0px 38px;
+    position: absolute;
+}
+
+.options__menu .option{
+    padding: 11px 0px 15px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.options__menu .option i{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.options__menu .option h4{
+    font-weight: 600;
+    cursor: pointer;
+    color: #FF6600;
+    font-size: 35px;
+}
+
+
+
+/*Clases para usar en JavaScript*/
+
+.body_move{
+    margin-left: 0px;
+}
+
+.menu__side_move{
+    width: 50%;
+}
+
+
+@media screen and (max-width: 760px){
+    .body_move{
+        margin-left: 0px;
+    }
+
+    .menu__side_move{
+        width: 80px;
+        left: -80px;
     }
 }
 
@@ -272,7 +377,7 @@ header .btn-menu {
     height: 45px;
 }
   
-  .StyleSelect::after {
+  /* .StyleSelect::after {
     content: '';
     border-width: 5px;
     border-style: solid;
@@ -283,7 +388,7 @@ header .btn-menu {
     position: absolute;
     right: 10px;
     bottom: 10px;
-}
+} */
   
   .StyleSelect .selector-options {
     list-style: none;
@@ -311,7 +416,6 @@ header .btn-menu {
   .StyleSelect .selector-options li:hover {
     background: var(--color-formulario);
 }
-
 
 
 
@@ -427,3 +531,5 @@ header .btn-menu {
     background: transparent linear-gradient(180deg,#B1BEDF4B 100%, #B2BFE1 100%, #ADB7D2 100%) 0% 0% no-repeat padding-box; 
     opacity: 1; 
 }
+
+
